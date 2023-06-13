@@ -1,4 +1,4 @@
-package com.codingdojo.emilio.repositorios;
+package com.codingdojo.leonel.repositorios;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,7 +6,7 @@ import java.util.Optional;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import com.codingdojo.emilio.modelos.Cancion;
+import com.codingdojo.leonel.modelos.Cancion;
 
 @Repository
 public interface RepositorioCanciones extends CrudRepository<Cancion,Long>{

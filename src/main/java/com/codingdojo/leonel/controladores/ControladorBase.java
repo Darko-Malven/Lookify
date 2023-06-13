@@ -1,4 +1,4 @@
-package com.codingdojo.emilio.controladores;
+package com.codingdojo.leonel.controladores;
 
 import java.util.List;
 
@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.codingdojo.emilio.modelos.Cancion;
-import com.codingdojo.emilio.servicios.Servicios;
+import com.codingdojo.leonel.modelos.Cancion;
+import com.codingdojo.leonel.servicios.Servicios;
 
 @Controller
 public class ControladorBase {
